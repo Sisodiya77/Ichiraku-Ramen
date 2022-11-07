@@ -27,7 +27,7 @@ html{
     width: 100px;
     margin: 0px 5px;
     animation-name: logo;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-iteration-count: 1.5s;
     animation-timing-function: ease-in-out;
     animation-delay: 1s;
