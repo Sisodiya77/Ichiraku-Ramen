@@ -1,0 +1,66 @@
+/* Navbar  */
+#navbar ul li a{
+    padding: 10px 60px;
+    font-size: 12px;
+}
+
+/* Home Section  */
+#home p{
+    font-size: .8rem;
+    padding: 10px 5px;
+}
+
+/* contact section  */
+#contact-box{
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    padding: 10px;
+}
+#contact{
+    padding: 4px 0px;
+}
+
+#contact h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#contact-box input{
+    font-size: .8rem;
+    width: 150%;
+}
+#contact-box textarea{
+    width: 200%;
+   padding: 0px 10px;
+   border-radius: 9px;
+   font-size: .8rem;
+}
+
+#contact-box label{
+    font-size: .8rem;
+    padding: 2px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* client section  */
+.client-item img{
+    width: 50px;
+    padding: 10px;
+}
+
+.client-item img:hover{
+    width: 60px;
+    padding: 0px 5px;
+}
+
+#client-s h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+/* footer  */
+footer{
+    font-size: .5rem;
+}

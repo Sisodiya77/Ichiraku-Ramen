@@ -1,0 +1,55 @@
+/* Navbar section  */
+#navbar ul li a{
+    padding: 10px 40px;
+    font-size: 12px;
+}
+
+#logo img{
+    display: flex;
+    width: 50px;
+    margin: 0px 5px;
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-iteration-count: 1.5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logo {
+    100%{
+        transform: rotate(360deg);
+        width: 80px;
+    }
+}
+
+/* services */
+.services-container h1{
+    font-size: 20px;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+#services .box h2{
+    font-size: 18px;
+}
+
+#services .box p{
+    font-size: 13px;
+}
+/* client section  */
+.client-item img{
+    width: 30px;
+    padding: 10px;
+}
+
+.client-item img:hover{
+    width: 50px;
+    padding: 0px 5px;
+}
+
+#client-s h1{
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
